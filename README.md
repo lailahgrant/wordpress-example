@@ -18,3 +18,18 @@ The `index.js` file can look like
 
 >import React from 'react'
 >import ReactDOM from 'react-dom'
+
+- Can create react components in the `src`
+
+- In the `package.json` in the scripts section, add 2 scripts
+`"build": "wp-scripts build",`
+`"start": "wp-scripts start",`
+
+> start will watch on every saving -
+> 
+>  `npm run start` creates a build folder, in the build folder - bundles up the project (Sass, React)
+> 
+> It creates an index.js file in build that is very small ()
+> 
+> Build is a one time run.
+
